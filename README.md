@@ -23,6 +23,14 @@ $$
 \end{aligned}
 $$
 
+Where $\mathbf{w}$ is the beamformer, $\mathbf{\Phi}$ is the noise covariance matrix, $\mathbf{a}$ is the look direction's steering vector, and $g_{min}$ is the white noise gain threshold. The first constraint is used to prevent target speech being cancelled (distortionless constraint), and the second constraint is used to avoid the white noise amplification phenomenon.
+
+
+
+
+
+
+
 
 # References
 - [1] [cvx] (http://cvxr.com/cvx/)
